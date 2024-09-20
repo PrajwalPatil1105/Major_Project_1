@@ -100,7 +100,7 @@ body{
 .rulesbtn{
     position:fixed;
     margin-top: 610px;
-    margin-left: 1350px;
+    margin-left: 1250px;
     
 }
 
@@ -131,7 +131,7 @@ body{
 .nextbtn{
     position:fixed;
     margin-top: 610px;
-    margin-left: 1200px;
+    margin-left: 1100px;
     display: none; 
 }
 
@@ -164,7 +164,7 @@ body{
 .rulebook{
     position: fixed;
     margin-top: 240px;
-    margin-left: 860px;
+    margin-left: 820px;
     transition-duration: 0s;
     width: 310px;
     height: 367px;
