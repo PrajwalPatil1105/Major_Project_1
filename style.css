@@ -1,0 +1,731 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgba(140, 196, 97, 1);
+}
+
+
+.main{
+     display: block;  
+}
+
+/* ==================================  score board  ======================== */
+.head{
+    width: 810px;
+    height: 137px;
+    margin-top: 30px;
+    margin-left: 360px;
+    border-radius: 15px;
+    background-color:transparent;
+    display: grid;
+    grid-template-columns: 455px 140px 140px;
+    column-gap: 25px;
+    border: 3px solid white;
+}
+
+
+.name ul{
+    color: aliceblue;
+    list-style-type: none;
+    margin-left: 27px;
+    margin-top: 14px;
+    font-family: Roboto;
+    letter-spacing: 3px;
+    font-size:33px;
+    font-weight: 500;
+}
+
+/* ================================================= Compute Score=========================== */
+.cscore{
+    background-color: white;
+    height: 120px;
+    margin-top: 8px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.cscore p{
+    color: rgba(101, 101, 101, 1);
+    font-family: Roboto;
+    padding-top: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.cscore #cmarks{
+    color: black;
+    font-family: Roboto;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 79.69px;
+}
+
+/* ==============================================User Score================================== */
+.yscore{
+    background-color: white;
+    height: 120px;
+    margin-top: 8px;
+    border-radius: 15px;
+    text-align: center;
+} 
+
+
+.yscore p{
+    color: rgba(101, 101, 101, 1);
+    font-family: Roboto;
+    padding-top: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.yscore #ymarks{
+    color: black;
+    font-family: Roboto;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 79.69px;
+}
+
+/* ===============================Rule button============================= */
+
+
+.rulesbtn{
+    position:fixed;
+    margin-top: 610px;
+    margin-left: 1350px;
+    
+}
+
+
+.rulesbtn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 430;
+    line-height: 24.61px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+#rule:hover{
+    background-color: white;
+    color: rgba(140, 196, 97, 1);
+}
+
+/* ===================================== Next Button======================================== */
+
+.nextbtn{
+    position:fixed;
+    margin-top: 610px;
+    margin-left: 1200px;
+    display: none; 
+}
+
+.nextbtn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 430;
+    line-height: 24.61px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+#next:hover{
+    background-color: white;
+    color: rgba(140, 196, 97, 1);
+}
+
+
+
+/* =====================================  Rulebook  ======================================= */
+
+
+.rulebook{
+    position: fixed;
+    margin-top: 240px;
+    margin-left: 860px;
+    transition-duration: 0s;
+    width: 310px;
+    height: 367px;
+    display:none;   
+}
+
+.rules{
+    position: fixed;
+    width: 257px;
+    height: 310px;
+    margin-top: 45px;
+    margin-left: 377px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color:rgba(0, 68, 41, 1);
+}
+
+
+.rules h1{
+    margin-top: 15px;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+}
+
+.rules ul{
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    list-style-type: square;
+    font-size: 13.4px;
+    font-family: Roboto;
+    text-align: justify;
+}
+
+.rules li{
+    padding-bottom: 11px;
+}
+
+.rules li::marker {
+    color: rgba(255, 214, 0, 1);
+  }
+
+
+
+/* ==================================  Cancle Button  ======================================= */
+
+
+#cancle{
+    width: 70px;
+    height: 70px;
+    margin-left: 610px;
+    margin-top: 15px;
+    border-radius: 35px;
+    border: 5px solid white;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+}
+
+#cancle:hover{
+    border: 7px solid white;
+}
+
+
+/* =================================== Page1 ============================================ */
+/* ====================================================================================== */
+
+.page1{
+    width: 425px;
+    height: 375px;
+    margin-left: 550px;
+    margin-top: 105px;
+    display:flex;  
+}
+
+.page1 #stone, #scer, #paper{
+    width: 130px;
+    height: 130px;
+    border-radius: 82px;
+    box-shadow: 0px 0px 13px rgb(44, 43, 43);
+    background-color: white;
+    position: fixed;
+    cursor: pointer;
+}
+
+#stone{
+    margin-left: 14px;
+    margin-top:10px ;
+    border: 15px solid rgba(0, 116, 182, 1);
+}
+
+#stone:hover{
+    transition-duration: .2s;
+    font-size: 25px;
+    box-shadow: 0px 0px 19px rgb(44, 43, 43);
+    border: 9px solid rgba(0, 116, 182, 1);
+}
+
+
+
+
+#scer{
+    margin-left: 278px;
+    margin-top:10px ;
+    border: 15px solid rgba(189, 0, 255, 1);
+}
+
+#scer:hover{
+    transition-duration: .2s;
+    font-size: 25px;
+    box-shadow: 0px 0px 19px rgb(44, 43, 43);
+    border: 9px solid rgba(189, 0, 255, 1)
+}
+
+
+
+#paper{
+    margin-top: 209px;
+    margin-left: 149px;
+    border: 15px solid rgba(255, 169, 67, 1);
+}
+
+#paper:hover{
+    transition-duration: .2s;
+    font-size: 25px;
+    box-shadow: 0px 0px 19px rgb(44, 43, 43);
+    border: 9px solid rgba(255, 169, 67, 1); 
+}
+
+
+
+/* ========================================== Lines ================================================ */
+
+
+#Li1{
+    position:fixed;
+    margin-left: 145px;
+    margin-top: 70px
+}
+
+
+#Li3{
+    margin-left: 111px;
+    position: fixed;
+    margin-top: 125px;
+    transform: rotate(-5deg);
+}
+
+#Li2{
+    position: fixed;
+    margin-left: 252px;
+    margin-top: 128px;
+    transform: rotate(4deg);
+}
+
+
+
+
+/* ========================================   Page 2   ============================================== */
+/* ====================================================================================================== */
+
+
+
+.page2{
+    width: 900px;
+    height: 400px;
+    margin-top: 55px;
+    margin-left: 280px;
+    display:none; 
+}
+
+.page2 #ellipse3{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    opacity: 100%;
+    position: fixed;
+    animation: pulse 1.5s infinite ease-in-out 0.7s;
+}
+
+.page2 #ellipse2{
+    width: 250px;
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 75px;
+    opacity: 95%;
+    position: fixed;
+    animation: pulse 1.5s infinite ease-in-out 0.9s;
+}
+
+.page2 #ellipse1{
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 0px;
+    opacity: 90%;
+    position: fixed;
+    animation: pulse 1.5s infinite ease-in-out 1s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#playerchoice{
+    width: 180px;
+    height: 180px;
+    margin-top: 110px;
+    margin-left: 110px;
+    position: fixed;
+}
+
+#youpicked{
+    margin-left: 148px;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19.92px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+    position: fixed;
+}
+
+#pcpicked{
+    margin-left: 722px;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19.92px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+    position: fixed;
+}
+
+.page2 h1{
+    margin-top: 180px;
+    margin-left: 392px;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45.7px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    position:fixed ;
+    animation: fade-in 3s ease-out forwards ;
+}
+
+.page2 h2{
+   margin-top: 230px;
+    margin-left: 410px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 29.3px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    position:fixed ;
+    animation: fade-in 3s ease-out forwards ;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+}
+
+#computerchoice{
+    margin-top: 110px;
+    margin-left: 680px;
+    width: 180px;
+    height: 180px;
+    animation: shake-horizontal 0.5s infinite;
+    position: fixed;
+}
+
+
+
+@keyframes shake-horizontal {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-1.5px); }
+    50% { transform: translateX(1.5px); }
+    75% { transform: translateX(-1.5px); }
+    100% { transform: translateX(0); }
+}
+
+
+
+
+
+/* ====================================   Page 3   ========================================= */
+/* ========================================================================================= */
+
+
+.page3{
+    width: 900px;
+    height: 400px;
+    margin-top: 55px;
+    margin-left: 280px;
+    display:none;
+}
+
+#playerchoiceL{
+    margin-top: 110px;
+    margin-left: 110px;
+    width: 180px;
+    height: 180px;
+    animation: shake-horizontal 0.5s infinite;
+    position: fixed;
+}
+
+#computerchoiceL{
+    margin-top: 110px;
+    margin-left: 680px;
+    width: 180px;
+    height: 180px;
+    position: fixed;
+}
+
+#youpicked{
+    margin-left: 148px;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19.92px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+    position: fixed;
+}
+
+#pcpicked{
+    margin-left: 722px;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19.92px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+    position: fixed;
+}
+
+.page3 h1{
+    margin-top: 180px;
+    margin-left: 385px;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45.7px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    position:fixed ;
+    animation: fade-in 3s ease-out forwards ;
+}
+
+.page3 h2{
+    margin-top: 230px;
+    margin-left: 415px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 29.3px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    position:fixed ;
+    animation: fade-in 3s ease-out forwards ;
+}
+
+.page3 #ellipse3{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 670px;
+    opacity: 100%;
+    position: fixed;
+    animation: pulse 1.5s infinite ease-in-out 0.7s;
+}
+
+.page3 #ellipse2{
+    width: 250px;
+    height: 250px;
+    margin-top: 75px;
+    margin-left: 645px;
+    opacity: 95%;
+    position: fixed;
+    animation: pulse 1.5s infinite ease-in-out 0.9s;
+}
+
+.page3 #ellipse1{
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 570px;
+    opacity: 90%;
+    position: fixed;
+    animation: pulse 1.5s infinite ease-in-out 1s;
+}
+
+
+/* ================================   Page 4 =========================================== */
+/* ===================================================================================== */
+
+
+
+.page4{
+    width: 900px;
+    height: 400px;
+    margin-top: 55px;
+    margin-left: 280px;
+    display:none;
+}
+
+#playerchoiceT{
+    margin-top: 110px;
+    margin-left: 110px;
+    width: 180px;
+    height: 180px;
+    animation: shake-horizontal 0.5s infinite;
+    position: fixed;
+}
+
+#computerchoiceT{
+    margin-top: 110px;
+    margin-left: 680px;
+    width: 180px;
+    height: 180px;
+    animation: shake-horizontal 0.5s infinite;
+    position: fixed;
+}
+
+.page4 h1{
+    margin-top: 195px;
+    margin-left: 417px;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45.7px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    position:fixed ;
+    animation: fade-in 3s ease-out forwards ;
+}
+
+
+
+/* ================================ Winning Page  ===================================== */
+/* ==================================================================================== */
+
+.win{
+    display: none;
+}
+
+
+.winpage #vec{
+    margin-top:185px ;
+    margin-left: 670px;
+    position: fixed;
+}
+
+.winpage #star{
+    margin-top:65px ;
+    margin-left: 510px;
+    animation: pop-stars 1.5s ease-out infinite;
+}
+
+@keyframes pop-stars {
+    50% {
+        transform: scale(1.2);
+        opacity: 1;             
+    }
+}
+
+#hurray{
+    font-family: Roboto;
+    font-size: 91px;
+    font-weight: 600;
+    line-height: 106.64px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 530px;
+    color: white;
+}
+
+#won{
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 48.05px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-left:530px;
+    color: white;
+}
+
+
+
+
+
+
+
+#playagain{
+    width: 170px;
+    height: 45px;
+    margin-top: 480px;
+    margin-left: 680px;
+    border-radius: 9px;
+    border: 3px solid white;
+    background-color: white;
+    color: rgba(107, 107, 107, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.58px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    animation: slideUp 0.5s ease forwards; 
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(40px);
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0); 
+        opacity: 1; 
+    }
+}
+
+
+#playagain:hover{
+    background-color:rgba(140, 196, 97, 1);
+    color: white;
+}
