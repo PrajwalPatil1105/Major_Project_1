@@ -99,7 +99,7 @@ body{
 
 .rulesbtn{
     position:absolute;
-    margin-top: 610px;
+    margin-top: 595px;
     margin-left: 1340px;
     
 }
@@ -130,7 +130,7 @@ body{
 
 .nextbtn{
     position:absolute;
-    margin-top: 610px;
+    margin-top: 595px;
     margin-left: 1200px;
     display: none; 
 }
@@ -163,8 +163,8 @@ body{
 
 .rulebook{
     position: absolute;
-    margin-top: 240px;
-    margin-left: 850px;
+    margin-top: 220px;
+    margin-left: 860px;
     transition-duration: 0s;
     width: 310px;
     height: 367px;
@@ -747,3 +747,66 @@ body{
     background-color:rgba(140, 196, 97, 1);
     color: white;
 }
+
+
+
+
+/* ======================  Media Query  ================== */
+
+
+@media (max-width: 1450px) {
+    
+    .head{
+        margin-left: 310px;
+    }
+
+    .page1{
+        margin-left: 510px;
+    }
+
+    .page2{
+        margin-left: 230px;
+    }
+
+    .page3{
+        margin-left: 230px;
+    }
+    
+    .page4{
+        margin-left: 230px;
+    }
+
+    #playagain{
+        margin-left: 630px;
+    }
+
+    .rulesbtn{
+        margin-left: 1280px;
+        
+    }
+
+    .nextbtn{
+        margin-left: 1140px;
+    }
+
+    .rulebook{
+        margin-left: 790px;
+    }
+
+    .winpage #vec{
+        margin-left: 620px;
+    }
+    
+    .winpage #star {
+        margin-left: 465px;
+    }
+
+    #hurray{
+        margin-left: 485px;
+    }
+
+    #won{
+        margin-left: 480px;
+    }
+
+  }

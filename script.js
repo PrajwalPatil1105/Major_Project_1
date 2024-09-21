@@ -36,7 +36,7 @@ function cancle(){
         rul.style.display="none";
       },400);
     rul.style.transitionDuration = "1s";
-    rul.style.marginLeft = "850px";
+    rul.style.marginLeft = "860px";
 }
 
 
@@ -246,6 +246,26 @@ function playagain(){
 
 
 
-// localStorage.clear()
+
+
+//  ====================  Media Query function for rule book==================
+
+ if (window.innerWidth <= 1450) {
+  function rule(){
+    setTimeout(() => {
+        rul.style.transitionDuration = "1s";
+        rul.style.marginLeft = "760px";
+      },100);
+    rul.style.display="flex"
+}
+
+function cancle(){
+    setTimeout(() => {
+        rul.style.display="none";
+      },400);
+    rul.style.transitionDuration = "1s";
+    rul.style.marginLeft = "790px";
+}
+}
 
 
