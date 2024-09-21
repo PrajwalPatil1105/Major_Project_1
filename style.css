@@ -98,7 +98,7 @@ body{
 
 
 .rulesbtn{
-    position:fixed;
+    position:absolute;
     margin-top: 610px;
     margin-left: 1340px;
     
@@ -129,7 +129,7 @@ body{
 /* ===================================== Next Button======================================== */
 
 .nextbtn{
-    position:fixed;
+    position:absolute;
     margin-top: 610px;
     margin-left: 1200px;
     display: none; 
@@ -162,7 +162,7 @@ body{
 
 
 .rulebook{
-    position: fixed;
+    position: absolute;
     margin-top: 240px;
     margin-left: 850px;
     transition-duration: 0s;
@@ -172,7 +172,7 @@ body{
 }
 
 .rules{
-    position: fixed;
+    position: absolute;
     width: 257px;
     height: 310px;
     margin-top: 45px;
