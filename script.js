@@ -26,7 +26,7 @@ let Pa =document.querySelector("#playagain")
 function rule(){
     setTimeout(() => {
         rul.style.transitionDuration = "1s";
-        rul.style.marginLeft = "800px";
+        rul.style.marginLeft = "815px";
       },100);
     rul.style.display="flex"
 }
@@ -36,7 +36,7 @@ function cancle(){
         rul.style.display="none";
       },400);
     rul.style.transitionDuration = "1s";
-    rul.style.marginLeft = "820px";
+    rul.style.marginLeft = "850px";
 }
 
 
