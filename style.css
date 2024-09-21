@@ -286,7 +286,7 @@ body{
 
 #paper{
     margin-top: 209px;
-    margin-left: 149px;
+    margin-left: 147px;
     border: 15px solid rgba(255, 169, 67, 1);
 }
 
@@ -318,9 +318,9 @@ body{
 
 #Li2{
     position: fixed;
-    margin-left: 252px;
-    margin-top: 128px;
-    transform: rotate(4deg);
+    margin-left: 245px;
+    margin-top: 125px;
+    transform: rotate(5deg);
 }
 
 
