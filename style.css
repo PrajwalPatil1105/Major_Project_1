@@ -751,7 +751,7 @@ body{
 
 
 
-/* ======================  Media Query  ================== */
+/* ======================  Media Query for 1450px Screen ================== */
 
 
 @media (max-width: 1450px) {
@@ -811,7 +811,9 @@ body{
 
   }
 
+  
 
+/* ======================  Media Query for 1280px Screen ================== */
 
   @media (max-width: 1280px) {
     .head{

@@ -71,6 +71,8 @@ var cp=[
 ]
 
 
+// ====================================== Stone button Function==================
+
 function stone(){
  let i = Math.floor(Math.random() * 3);
  if(cp[i]=="paper"){
@@ -119,7 +121,7 @@ if(yscore>cscore){
 
 
 
-
+// ====================================  Paper button Function ===================
 
 function paper(){
   let i = Math.floor(Math.random() * 3);
@@ -171,7 +173,7 @@ function paper(){
 
 
 
-
+// ==============================Scisors button function=============================
   
 function scer(){
   let i = Math.floor(Math.random() * 3);
@@ -248,7 +250,7 @@ function playagain(){
 
 
 
-//  ====================  Media Query function for rule book==================
+//  ====================  Media Query function for 1450 screen==================
 
  if (window.innerWidth <= 1450) {
   function rule(){
@@ -268,7 +270,7 @@ function cancle(){
 }
 }
 
-
+/* ======================  Media Query for 1280px Screen ================== */
  if (window.innerWidth <= 1280) {
   function rule(){
     setTimeout(() => {
