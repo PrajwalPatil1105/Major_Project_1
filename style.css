@@ -815,56 +815,56 @@ body{
 
   @media (max-width: 1280px) {
     .head{
-        margin-left: 230px;
+        margin-left: 200px;
     }
 
     .page1{
-        margin-left: 430px;
+        margin-left: 400px;
     }
 
     .page2{
-        margin-left: 150px;
+        margin-left: 120px;
     }
 
     .page3{
-        margin-left: 150px;
+        margin-left: 120px;
     }
     
     .page4{
-        margin-left: 150px;
+        margin-left: 120px;
     }
 
     #playagain{
-        margin-left: 550px;
+        margin-left: 520px;
     }
 
     .rulesbtn{
-        margin-left: 1110px;
+        margin-left: 1080px;
         
     }
 
     .nextbtn{
-        margin-left: 970px;
+        margin-left: 940px;
     }
 
     .rulebook{
-        margin-left: 680px;
+        margin-left: 620px;
     }
 
     .winpage #vec{
-        margin-left: 540px;
+        margin-left: 510px;
     }
     
     .winpage #star {
-        margin-left: 485px;
+        margin-left: 455px;
     }
 
     #hurray{
-        margin-left: 405px;
+        margin-left: 375px;
     }
 
     #won{
-        margin-left: 400px;
+        margin-left: 370px;
     }
 
   }

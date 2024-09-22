@@ -273,7 +273,7 @@ function cancle(){
   function rule(){
     setTimeout(() => {
         rul.style.transitionDuration = "1s";
-        rul.style.marginLeft = "640px";
+        rul.style.marginLeft = "610px";
       },100);
     rul.style.display="flex"
 }
@@ -283,7 +283,7 @@ function cancle(){
         rul.style.display="none";
       },400);
     rul.style.transitionDuration = "1s";
-    rul.style.marginLeft = "680px";
+    rul.style.marginLeft = "620px";
 }
 }
 
