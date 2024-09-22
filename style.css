@@ -249,7 +249,7 @@ body{
     border-radius: 82px;
     box-shadow: 0px 0px 13px rgb(44, 43, 43);
     background-color: white;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
 }
 
@@ -303,7 +303,7 @@ body{
 
 
 #Li1{
-    position:fixed;
+    position:absolute;
     margin-left: 145px;
     margin-top: 70px
 }
@@ -311,13 +311,13 @@ body{
 
 #Li3{
     margin-left: 111px;
-    position: fixed;
+    position: absolute;
     margin-top: 125px;
     transform: rotate(-5deg);
 }
 
 #Li2{
-    position: fixed;
+    position: absolute;
     margin-left: 245px;
     margin-top: 125px;
     transform: rotate(5deg);
@@ -345,8 +345,8 @@ body{
     margin-top: 100px;
     margin-left: 100px;
     opacity: 100%;
-    position: fixed;
-    animation: pulse 1.5s infinite ease-in-out 0.7s;
+    position: absolute;
+    animation: pulse 1.2s infinite ease-in-out 0.7s;
 }
 
 .page2 #ellipse2{
@@ -355,8 +355,8 @@ body{
     margin-top: 75px;
     margin-left: 75px;
     opacity: 95%;
-    position: fixed;
-    animation: pulse 1.5s infinite ease-in-out 0.9s;
+    position: absolute;
+    animation: pulse 1.2s infinite ease-in-out 0.9s;
 }
 
 .page2 #ellipse1{
@@ -365,8 +365,8 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     opacity: 90%;
-    position: fixed;
-    animation: pulse 1.5s infinite ease-in-out 1s;
+    position: absolute;
+    animation: pulse 1.2s infinite ease-in-out 1s;
 }
 
 @keyframes pulse {
@@ -386,7 +386,7 @@ body{
     height: 180px;
     margin-top: 110px;
     margin-left: 110px;
-    position: fixed;
+    position: absolute;
 }
 
 #youpicked{
@@ -399,7 +399,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: fixed;
+    position: absolute;
 }
 
 #pcpicked{
@@ -412,7 +412,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: fixed;
+    position: absolute;
 }
 
 .page2 h1{
@@ -439,7 +439,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:fixed ;
+    position:absolute ;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -458,7 +458,7 @@ body{
     width: 180px;
     height: 180px;
     animation: shake-horizontal 0.5s infinite;
-    position: fixed;
+    position: absolute;
 }
 
 
@@ -493,7 +493,7 @@ body{
     width: 180px;
     height: 180px;
     animation: shake-horizontal 0.5s infinite;
-    position: fixed;
+    position: absolute;
 }
 
 #computerchoiceL{
@@ -501,7 +501,7 @@ body{
     margin-left: 680px;
     width: 180px;
     height: 180px;
-    position: fixed;
+    position: absolute;
 }
 
 #youpicked{
@@ -514,7 +514,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: fixed;
+    position: absolute;
 }
 
 #pcpicked{
@@ -527,7 +527,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: fixed;
+    position: absolute;
 }
 
 .page3 h1{
@@ -540,7 +540,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:fixed ;
+    position:absolute;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -554,7 +554,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:fixed ;
+    position:absolute;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -564,8 +564,8 @@ body{
     margin-top: 100px;
     margin-left: 670px;
     opacity: 100%;
-    position: fixed;
-    animation: pulse 1.5s infinite ease-in-out 0.7s;
+    position: absolute;
+    animation: pulse 1.2s infinite ease-in-out 0.7s;
 }
 
 .page3 #ellipse2{
@@ -574,8 +574,8 @@ body{
     margin-top: 75px;
     margin-left: 645px;
     opacity: 95%;
-    position: fixed;
-    animation: pulse 1.5s infinite ease-in-out 0.9s;
+    position: absolute;
+    animation: pulse 1.2s infinite ease-in-out 0.9s;
 }
 
 .page3 #ellipse1{
@@ -584,8 +584,8 @@ body{
     margin-top: 0px;
     margin-left: 570px;
     opacity: 90%;
-    position: fixed;
-    animation: pulse 1.5s infinite ease-in-out 1s;
+    position: absolute;
+    animation: pulse 1.2s infinite ease-in-out 1s;
 }
 
 
@@ -608,7 +608,7 @@ body{
     width: 180px;
     height: 180px;
     animation: shake-horizontal 0.5s infinite;
-    position: fixed;
+    position:absolute;
 }
 
 #computerchoiceT{
@@ -617,7 +617,7 @@ body{
     width: 180px;
     height: 180px;
     animation: shake-horizontal 0.5s infinite;
-    position: fixed;
+    position: absolute;
 }
 
 .page4 h1{
@@ -630,7 +630,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:fixed ;
+    position:absolute ;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -647,7 +647,7 @@ body{
 .winpage #vec{
     margin-top:185px ;
     margin-left: 670px;
-    position: fixed;
+    position: absolute;
 }
 
 .winpage #star {
@@ -726,7 +726,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     display: none;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     animation: slideUp 0.5s ease forwards; 
 }
