@@ -399,7 +399,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: absolute;
+    position: fixed
 }
 
 #pcpicked{
@@ -412,7 +412,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: absolute;
+    position: fixed;
 }
 
 .page2 h1{
@@ -425,7 +425,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:absolute ;
+    position:fixed ;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -439,7 +439,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:absolute ;
+    position:fixed ;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -514,7 +514,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: absolute;
+    position: fixed;
 }
 
 #pcpicked{
@@ -527,7 +527,7 @@ body{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    position: absolute;
+    position:fixed;
 }
 
 .page3 h1{
@@ -540,7 +540,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:absolute;
+    position:fixed;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -554,7 +554,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:absolute;
+    position:fixed;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -630,7 +630,7 @@ body{
     letter-spacing: 0.1em;
     text-align: center;
     color: white;
-    position:absolute ;
+    position:fixed;
     animation: fade-in 3s ease-out forwards ;
 }
 
@@ -807,6 +807,64 @@ body{
 
     #won{
         margin-left: 480px;
+    }
+
+  }
+
+
+
+  @media (max-width: 1280px) {
+    .head{
+        margin-left: 270px;
+    }
+
+    .page1{
+        margin-left: 470px;
+    }
+
+    .page2{
+        margin-left: 190px;
+    }
+
+    .page3{
+        margin-left: 190px;
+    }
+    
+    .page4{
+        margin-left: 190px;
+    }
+
+    #playagain{
+        margin-left: 590px;
+    }
+
+    .rulesbtn{
+        margin-left: 1250px;
+        
+    }
+
+    .nextbtn{
+        margin-left: 1110px;
+    }
+
+    .rulebook{
+        margin-left: 750px;
+    }
+
+    .winpage #vec{
+        margin-left: 590px;
+    }
+    
+    .winpage #star {
+        margin-left: 425px;
+    }
+
+    #hurray{
+        margin-left: 445px;
+    }
+
+    #won{
+        margin-left: 440px;
     }
 
   }

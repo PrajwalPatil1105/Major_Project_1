@@ -269,3 +269,22 @@ function cancle(){
 }
 
 
+ if (window.innerWidth <= 1280) {
+  function rule(){
+    setTimeout(() => {
+        rul.style.transitionDuration = "1s";
+        rul.style.marginLeft = "730px";
+      },100);
+    rul.style.display="flex"
+}
+
+function cancle(){
+    setTimeout(() => {
+        rul.style.display="none";
+      },400);
+    rul.style.transitionDuration = "1s";
+    rul.style.marginLeft = "750px";
+}
+}
+
+
